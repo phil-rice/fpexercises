@@ -5,6 +5,7 @@ import java.util.function.Function;
 
 public interface Exercise3 {
 
+    /** Returns a function that applies the function f to every element in a list */
     static Function<List<String>, List<String>> mapFn(Function<String, String> f) {
         throw new RuntimeException("Not implemented");
     }
